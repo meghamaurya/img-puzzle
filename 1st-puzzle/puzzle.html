@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image puzzle</title>
+    <link rel="stylesheet" href="/img-puzzle/jquery/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Puzzle</h1>
+        <hr>
+        <div class="app">
+            <div id="puzzle" class="sortable puzzle">
+                <div tile1 id="tile-1" class="tile"></div>
+                <div tile2 id="tile-2" class="tile"></div>
+                <div tile3 id="tile-3" class="tile"></div>
+                <div tile4 id="tile-4" class="tile"></div>
+                <div tile5 id="tile-5" class="tile"></div>
+                <div tile6 id="tile-6" class="tile"></div>
+                <div tile7 id="tile-7" class="tile"></div>
+                <div tile8 id="tile-8" class="tile"></div>
+                <div tile9 id="tile-9" class="tile"></div>
+            </div>
+            <div class="ref-container">
+                <div id="ref-img"></div>
+                <p>Use arrow keys from keyboard to <br>
+                    re arrange the puzzle to create <br>
+                    like the above 👆🏾</p>
+                <button class="button" id='startBtn' onclick="shuffle()">Play</button>
+                <!-- <button class="button" type="reset">Restart</button> -->
+                <!-- <button>Another puzzle"></a></button> -->
+                <p id='timer'>timer</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/img-puzzle/jquery/jquery.min.js"></script>
+    <script src="/img-puzzle/jquery/jquery-ui.js"></script>
+    <script src="puzzle.js"></script>
+</body>
+
+</html>
