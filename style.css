@@ -24,7 +24,7 @@ h1 {
 
 
 #ref-img {
-    background-image: url("/img-puzzle/img/pica400.jpg");
+    background-image: url("/img-puzzle/pica400.jpg");
     width: 40vh;
     height: 40vh;
     background-size: cover;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .puzzle>div {
-    background-image: url("/img-puzzle/img/pica400.jpg");
+    background-image: url("/img-puzzle/pica400.jpg");
     width: 33.3%;
     height: 33.3%;
     background-size: 300%;
